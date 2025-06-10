@@ -34,8 +34,8 @@ function HeroSection() {
           
           <div className="mt-5">
               <a 
-                href="/Updated_Brian_Okoth_VisualCV_Resume.pdf" // Path to your file in public folder
-                download="Updated_Brian_Okoth_VisualCV_Resume.pdf" // Optional: Forces this filename
+                href="/Updated_Brian_Okoth_VisualCV_Resume (1).pdf" // Path to your file in public folder
+                download="Updated_Brian_Okoth_VisualCV_Resume (1).pdf" // Optional: Forces this filename
                 className="px-8 py-2 rounded-full bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200 cursor-pointer"
               >
                 Download My Resume
