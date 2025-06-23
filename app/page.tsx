@@ -10,7 +10,7 @@ import ContactSection from "./components/contact-section";
 
 export default function Home() {
   return (
-   <div className="flex-1 bg-gray-900  bg-cover" >
+   <div className="flex-1 bg-gray-900  bg-cover " >
     
     <HeroSection />
     <WhatIDo/>

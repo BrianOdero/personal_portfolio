@@ -8,6 +8,9 @@ interface StatusType {
   message: string;
 }
 
+
+
+
 export default function ContactSection() {
   const form = useRef<HTMLFormElement>(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -28,12 +31,6 @@ export default function ContactSection() {
     const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
     const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
     const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
-
-    // Debug: Log environment variables (remove in production)
-    
-    // console.log('Service ID:', SERVICE_ID);
-    // console.log('Template ID:', TEMPLATE_ID);
-    // console.log('Public Key:', PUBLIC_KEY ? 'Present' : 'Missing');
 
     // Check if all required credentials are present
     if (!SERVICE_ID || !TEMPLATE_ID || !PUBLIC_KEY) {
@@ -144,7 +141,7 @@ export default function ContactSection() {
           <div>
             <h3 className="text-xl font-semibold text-white mb-4">Connect With Me</h3>
             <div className="flex space-x-4">
-              {['LinkedIn', 'GitHub', 'Twitter', 'Instagram'].map((platform, index) => (
+              {['LinkedIn', 'GitHub'].map((platform, index) => (
                 <a 
                   key={index}
                   href="#" 

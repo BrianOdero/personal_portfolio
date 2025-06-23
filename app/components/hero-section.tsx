@@ -4,7 +4,7 @@ import { TextGenerateEffect } from './ui/text-generate-effect';
 
 function HeroSection() {
   return (
-    <div className="min-h-screen  flex flex-col items-center justify-center px-4 py-2 relative overflow-hidden">
+    <div className="min-h-screen  flex flex-col items-center justify-center px-4 py-2 relative overflow-hidden md:w-full">
       {/* Decorative elements */}
       <div className="absolute top-20 left-10 w-40 h-40 bg-blue-500/10 rounded-full blur-3xl -z-10"></div>
       <div className="absolute bottom-20 right-20 w-60 h-60 bg-purple-500/10 rounded-full blur-3xl -z-10"></div>
