@@ -5,6 +5,7 @@ import { WhatIDo } from "./components/skill-section";
 import TechStack from "./components/tech-stack";
 import FooterSection from "./components/footer";
 import ContactSection from "./components/contact-section";
+import { MyProjects } from "./components/current-projects";
 
 
 
@@ -15,6 +16,7 @@ export default function Home() {
     <HeroSection />
     <WhatIDo/>
     <TechStack/>
+    <MyProjects/>
     <ContactSection/>
     <FooterSection/>
 

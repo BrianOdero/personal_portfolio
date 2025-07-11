@@ -49,9 +49,9 @@ function HeroSection() {
             <Image
               src="/profile_pic.jpg"
               alt="Brian Odero"
-              layout="fill"
-              objectFit="cover"
-              className="transition-transform duration-500 hover:scale-110"
+              fill
+              sizes='auto'
+              className="transition-transform duration-500 hover:scale-110 object-cover"
               priority
             />
             {/* Decorative circle */}
