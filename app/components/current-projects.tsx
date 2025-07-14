@@ -27,42 +27,48 @@ export function MyProjects() {
 
 export const currentProjects = [
   {
-    title: "E-commerce Mobile App",
-    description: "Building a cross-platform e-commerce solution with React Native and Firebase backend.",
-    link: "#", // Add actual project links if available
-    status: "In Development"
+    title: "AI notepad",
+    description: "Currently building a react native notepad application with AI integration",
+    link: "https://github.com/yourusername/ai-notepad", // Replace with actual GitHub link
+    status: "In Development",
+    techStack: ["React Native", "TensorFlow.js",]
   },
   {
-    title: "HealthTech Dashboard",
-    description: "Developing an analytics dashboard for healthcare providers using Next.js and Python APIs.",
-    link: "#",
-    status: "Active Development"
+    title: "Learning Management System",
+    description: "Currently working on a Learning Management System using react native and appwrite with AI integration.",
+    link: "https://github.com/yourusername/lms-app", // Replace with actual GitHub link
+    status: "In Development",
+    techStack: ["React Native", "Appwrite", "OpenAI API"]
   },
   {
-    title: "Payment Gateway Plugin",
-    description: "Creating a WordPress plugin for M-PESA integration using Daraja API.",
-    link: "#",
-    status: "Beta Testing"
+    title: "Miyugus Rentals Website",
+    description: "Building a full website with currently completely implementation of the landing page of the website.",
+    link: "https://github.com/yourusername/miyugus-rentals", // Replace with actual GitHub link
+    status: "Beta Testing",
+    techStack: ["Next.js", "Tailwind CSS", "Node.js"]
   },
 ];
 
 export const pastProjects = [
   {
-    title: "University LMS",
-    description: "Developed a learning management system for a local university with Django backend.",
-    link: "#",
-    year: "2023"
+    title: "Weather App",
+    description: "Developed a weather application using react native as practice to test my api integration.",
+    link: "#", // Replace with actual GitHub link
+    year: "2024",
+    techStack: ["React Native", "OpenWeather API", "Redux"]
   },
   {
-    title: "Restaurant POS",
-    description: "Built a point-of-sale system with inventory management for restaurant chains.",
-    link: "#",
-    year: "2022"
+    title: "Rental Car Application",
+    description: "Build a rental car application using react native with integration with Daraja Api for STK push.",
+    link: "#", // Replace with actual GitHub link
+    year: "2022",
+    techStack: ["React Native", "Daraja API", "Firebase"]
   },
   {
-    title: "Fitness Tracking App",
-    description: "Created a React Native fitness app with Google Fit integration.",
-    link: "#",
-    year: "2021"
+    title: "Visitor Management System",
+    description: "Built a full stack visitor management system using Next JS for the frontend and Nodejs with express for the backend with integration with nodemailer.",
+    link: "#", // Replace with actual GitHub link
+    year: "2021",
+    techStack: ["Next.js", "Node.js", "Express","Node Mailer"]
   },
 ];
