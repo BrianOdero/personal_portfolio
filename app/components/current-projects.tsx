@@ -29,21 +29,21 @@ export const currentProjects = [
   {
     title: "AI notepad",
     description: "Currently building a react native notepad application with AI integration",
-    link: "https://github.com/yourusername/ai-notepad", // Replace with actual GitHub link
+    link: "#",  // Replace with actual GitHub link
     status: "In Development",
     techStack: ["React Native", "TensorFlow.js",]
   },
   {
     title: "Learning Management System",
     description: "Currently working on a Learning Management System using react native and appwrite with AI integration.",
-    link: "https://github.com/yourusername/lms-app", // Replace with actual GitHub link
+    link: "#",  // Replace with actual GitHub link
     status: "In Development",
     techStack: ["React Native", "Appwrite", "OpenAI API"]
   },
   {
     title: "Miyugus Rentals Website",
     description: "Building a full website with currently completely implementation of the landing page of the website.",
-    link: "https://github.com/yourusername/miyugus-rentals", // Replace with actual GitHub link
+    link: "#", // Replace with actual GitHub link
     status: "Beta Testing",
     techStack: ["Next.js", "Tailwind CSS", "Node.js"]
   },
@@ -53,21 +53,21 @@ export const pastProjects = [
   {
     title: "Weather App",
     description: "Developed a weather application using react native as practice to test my api integration.",
-    link: "#", // Replace with actual GitHub link
+    link: "https://github.com/BrianOdero/Weather-App", // Replace with actual GitHub link
     year: "2024",
     techStack: ["React Native", "OpenWeather API", "Redux"]
   },
   {
     title: "Rental Car Application",
     description: "Build a rental car application using react native with integration with Daraja Api for STK push.",
-    link: "#", // Replace with actual GitHub link
+    link: "https://github.com/BrianOdero/CarRental", // Replace with actual GitHub link
     year: "2022",
     techStack: ["React Native", "Daraja API", "Firebase"]
   },
   {
     title: "Visitor Management System",
     description: "Built a full stack visitor management system using Next JS for the frontend and Nodejs with express for the backend with integration with nodemailer.",
-    link: "#", // Replace with actual GitHub link
+    link: "https://github.com/BrianOdero/visitor-management-system-smoothtel", // Replace with actual GitHub link
     year: "2021",
     techStack: ["Next.js", "Node.js", "Express","Node Mailer"]
   },
