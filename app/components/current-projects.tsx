@@ -61,14 +61,14 @@ export const pastProjects = [
     title: "Rental Car Application",
     description: "Build a rental car application using react native with integration with Daraja Api for STK push.",
     link: "https://github.com/BrianOdero/CarRental", // Replace with actual GitHub link
-    year: "2022",
+    year: "2025",
     techStack: ["React Native", "Daraja API", "Firebase"]
   },
   {
     title: "Visitor Management System",
     description: "Built a full stack visitor management system using Next JS for the frontend and Nodejs with express for the backend with integration with nodemailer.",
     link: "https://github.com/BrianOdero/visitor-management-system-smoothtel", // Replace with actual GitHub link
-    year: "2021",
+    year: "2025",
     techStack: ["Next.js", "Node.js", "Express","Node Mailer"]
   },
 ];
