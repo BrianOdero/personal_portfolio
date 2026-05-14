@@ -134,6 +134,18 @@ export default function ContactSection() {
                   <p className="text-white">brianodero7537@gmail.com</p>
                 </div>
               </div>
+
+              <div className="flex items-start">
+                <div className="w-10 h-10 rounded-lg bg-blue-900/30 flex items-center justify-center mr-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-400" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-sm font-semibold text-gray-500 uppercase">Phone Number</h3>
+                  <p className="text-white">0721503973</p>
+                </div>
+              </div>
             </div>
           </div>
           
