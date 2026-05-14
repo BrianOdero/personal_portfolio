@@ -153,13 +153,19 @@ export default function ContactSection() {
           <div>
             <h3 className="text-xl font-semibold text-white mb-4">Connect With Me</h3>
             <div className="flex space-x-4">
-              {['LinkedIn', 'GitHub'].map((platform, index) => (
+              {[{
+                name: 'LinkedIn',
+                url: 'https://www.linkedin.com/in/brian-okoth-2b7462258/'
+              }, {
+                name: 'GitHub',
+                url: 'https://github.com/BrianOdero'
+              }].map((platform, index) => (
                 <a 
                   key={index}
-                  href="#" 
+                  href={platform.url} 
                   className="px-4 py-2 bg-gray-800 hover:bg-blue-600 rounded-lg transition-all duration-300"
                 >
-                  <span className="text-gray-300 hover:text-white">{platform}</span>
+                  <span className="text-gray-300 hover:text-white">{platform.name}</span>
                 </a>
               ))}
             </div>
