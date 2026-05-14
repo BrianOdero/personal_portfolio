@@ -22,7 +22,7 @@ export const projects = [
   },
   {
     title: "Web Development",
-    description: "Creating responsive and modern websites and web apps using Next.js with an emphasis on performance and user experience.",
+    description: "Creating responsive and modern websites and web apps using Next.js and React JS with an emphasis on performance and user experience.",
   },
   {
     title: "Payment Integration",
@@ -30,14 +30,10 @@ export const projects = [
   },
   {
     title: "Backend Development",
-    description: "Developing robust backend services and APIs using Python and modern frameworks to power mobile and web apps.",
+    description: "Developing robust backend services and APIs using Java and Spring boot and Node JS to power mobile and web apps.",
   },
   {
     title: "Figma Design",
     description: "Designing clean, intuitive user interfaces and prototypes in Figma, focused on user-centered experiences.",
-  },
-  {
-    title: "WordPress Development",
-    description: "Building fast, customized websites with WordPress for blogging, business, or e-commerce using modern tools like Locofy.",
-  },
+  }
 ];

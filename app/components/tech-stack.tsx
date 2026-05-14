@@ -3,8 +3,8 @@ import React from 'react';
 export default function TechStack() {
   const technologies = [
     'JS TS', 'AWS',
-    'React', 'Node.js', 'Python', 'Django', 'PostgreSQL',
-    'MySQL', 'Supabase', 'Firebase', 'Figma', 'Locofy'
+    'React', 'Node.js', 'PostgreSQL',
+    'MySQL', 'Supabase', 'Figma'
   ];
 
   return (

@@ -27,13 +27,6 @@ export function MyProjects() {
 
 export const currentProjects = [
   {
-    title: "AI notepad",
-    description: "Currently building a react native notepad application with AI integration",
-    link: "#",  // Replace with actual GitHub link
-    status: "In Development",
-    techStack: ["React Native", "TensorFlow.js",]
-  },
-  {
     title: "Learning Management System",
     description: "Currently working on a Learning Management System using react native and appwrite with AI integration.",
     link: "#",  // Replace with actual GitHub link
@@ -67,6 +60,13 @@ export const pastProjects = [
   {
     title: "Visitor Management System",
     description: "Built a full stack visitor management system using Next JS for the frontend and Nodejs with express for the backend with integration with nodemailer.",
+    link: "https://github.com/BrianOdero/visitor-management-system-smoothtel", // Replace with actual GitHub link
+    year: "2025",
+    techStack: ["Next.js", "Node.js", "Express","Node Mailer"]
+  },
+  {
+    title: "AI Notepad",
+    description: "Built an AI notepad app with basic AI creation.",
     link: "https://github.com/BrianOdero/visitor-management-system-smoothtel", // Replace with actual GitHub link
     year: "2025",
     techStack: ["Next.js", "Node.js", "Express","Node Mailer"]
